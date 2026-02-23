@@ -1,0 +1,217 @@
+\begin{thebibliography}{30}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Anonymous}(2024)]{plp2024}
+{Anonymous}.
+\newblock Enhancing deep neural network training efficiency and performance
+  through linear prediction.
+\newblock \emph{Scientific Reports}, 14:\penalty0 15443, 2024.
+
+\bibitem[Chen et~al.(2023)Chen, Borgeaud, Irving, Lespiau, Sifre, and
+  Jumper]{chen2023accelerating}
+Charlie Chen, Sebastian Borgeaud, Geoffrey Irving, Jean-Baptiste Lespiau,
+  Laurent Sifre, and John Jumper.
+\newblock Accelerating large language model decoding with speculative sampling.
+\newblock \emph{arXiv preprint arXiv:2302.01318}, 2023.
+
+\bibitem[Cohen et~al.(2021)Cohen, Kaur, Li, Kolter, and
+  Talwalkar]{cohen2021gradient}
+Jeremy Cohen, Simran Kaur, Yuanzhi Li, J~Zico Kolter, and Ameet Talwalkar.
+\newblock Gradient descent on neural networks typically occurs at the edge of
+  stability.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2021.
+
+\bibitem[Draxler et~al.(2018)Draxler, Veschgini, Salmhofer, and
+  Hamprecht]{draxler2018essentially}
+Felix Draxler, Kambis Veschgini, Manfred Salmhofer, and Fred~A Hamprecht.
+\newblock Essentially no barriers in neural network energy landscape.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2018.
+
+\bibitem[Evensen(1994)]{evensen1994sequential}
+Geir Evensen.
+\newblock Sequential data assimilation with a nonlinear quasi-geostrophic model
+  using {Monte Carlo} methods to forecast error statistics.
+\newblock \emph{Journal of Geophysical Research}, 99\penalty0 (C5):\penalty0
+  10143--10162, 1994.
+
+\bibitem[Foret et~al.(2021)Foret, Kleiner, Mobahi, and
+  Neyshabur]{foret2021sharpness}
+Pierre Foret, Ariel Kleiner, Hossein Mobahi, and Behnam Neyshabur.
+\newblock Sharpness-aware minimization for efficiently improving
+  generalization.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2021.
+
+\bibitem[Frankle et~al.(2020)Frankle, Dziugaite, Roy, and
+  Carbin]{frankle2020linear}
+Jonathan Frankle, Gintare~Karolina Dziugaite, Daniel~M Roy, and Michael Carbin.
+\newblock Linear mode connectivity and the lottery ticket hypothesis.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2020.
+
+\bibitem[Gao et~al.(2011)Gao, Wang, Weng, Lakshmivarahan, Zhang, and
+  Luo]{gao2011assimilation}
+Chao Gao, Han Wang, Ensheng Weng, S~Lakshmivarahan, Yanfen Zhang, and Yiqi Luo.
+\newblock Assimilation of multiple data sets with the ensemble {Kalman} filter
+  to improve forecasts of forest carbon dynamics.
+\newblock \emph{Ecological Applications}, 21\penalty0 (5):\penalty0 1461--1473,
+  2011.
+
+\bibitem[Garipov et~al.(2018)Garipov, Izmailov, Podoprikhin, Vetrov, and
+  Wilson]{garipov2018loss}
+Timur Garipov, Pavel Izmailov, Dmitrii Podoprikhin, Dmitry~P Vetrov, and
+  Andrew~Gordon Wilson.
+\newblock Loss surfaces, mode connectivity, and fast ensembling of {DNNs}.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2018.
+
+\bibitem[Geiger et~al.(2022)Geiger, Petrini, and Wyart]{geiger2022chaotic}
+Mario Geiger, Leonardo Petrini, and Matthieu Wyart.
+\newblock Chaotic dynamics are intrinsic to neural network training with {SGD}.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2022.
+
+\bibitem[Guan et~al.(2024)Guan, Chen, et~al.]{guan2024xgrad}
+Lei Guan, Dongsheng Chen, et~al.
+\newblock {XGrad}: Boosting gradient-based optimizers with weight prediction.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 2024.
+
+\bibitem[Jang and Han(2023)]{jang2023wnn}
+Jinhyeok Jang and Woo-hun Han.
+\newblock Learning to boost training by periodic nowcasting near future
+  weights.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2023.
+
+\bibitem[Kamarthi and Pittner(1999)]{kamarthi1999accelerating}
+Sagar~V Kamarthi and Stefan Pittner.
+\newblock Accelerating neural network training using weight extrapolations.
+\newblock \emph{Neural Networks}, 12\penalty0 (9):\penalty0 1285--1299, 1999.
+
+\bibitem[Kaplan et~al.(2020)Kaplan, McCandlish, Henighan, Brown, Chess, Child,
+  Gray, Radford, Wu, and Amodei]{kaplan2020scaling}
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom~B Brown, Benjamin Chess, Rewon
+  Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei.
+\newblock Scaling laws for neural language models.
+\newblock \emph{arXiv preprint arXiv:2001.08361}, 2020.
+
+\bibitem[Keskar et~al.(2017)Keskar, Mudigere, Nocedal, Smelyanskiy, and
+  Tang]{keskar2017large}
+Nitish~Shirish Keskar, Dheevatsa Mudigere, Jorge Nocedal, Mikhail Smelyanskiy,
+  and Ping Tak~Peter Tang.
+\newblock On large-batch training for deep learning: Generalization gap and
+  sharp minima.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2017.
+
+\bibitem[Knyazev et~al.(2025)Knyazev, Drozdzal, Taylor, and
+  Romero]{knyazev2025nino}
+Boris Knyazev, Maude Drozdzal, Graham~W Taylor, and Adriana Romero.
+\newblock Accelerating training with neuron interaction and nowcasting
+  networks.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+
+\bibitem[Leviathan et~al.(2023)Leviathan, Kalman, and
+  Matias]{leviathan2023fast}
+Yaniv Leviathan, Matan Kalman, and Yossi Matias.
+\newblock Fast inference from transformers via speculative decoding.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2023.
+
+\bibitem[Lewkowycz et~al.(2020)Lewkowycz, Bahri, Dyer, Sohl-Dickstein, and
+  Gur-Ari]{lewkowycz2020large}
+Aitor Lewkowycz, Yasaman Bahri, Ethan Dyer, Jascha Sohl-Dickstein, and Guy
+  Gur-Ari.
+\newblock The large learning rate phase of deep learning: the catapult
+  mechanism.
+\newblock \emph{arXiv preprint arXiv:2003.02218}, 2020.
+
+\bibitem[Li et~al.(2018)Li, Xu, Taylor, Studer, and
+  Goldstein]{li2018visualizing}
+Hao Li, Zheng Xu, Gavin Taylor, Christoph Studer, and Tom Goldstein.
+\newblock Visualizing the loss landscape of neural nets.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2018.
+
+\bibitem[Liu et~al.(2020)Liu, Jiang, He, Chen, Liu, Gao, and
+  Han]{liu2020variance}
+Liyuan Liu, Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng
+  Gao, and Jiawei Han.
+\newblock On the variance of the adaptive learning rate and beyond.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2020.
+
+\bibitem[Merity et~al.(2017)Merity, Xiong, Bradbury, and
+  Socher]{merity2017pointer}
+Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher.
+\newblock Pointer sentinel mixture models.
+\newblock 2017.
+
+\bibitem[Nanda et~al.(2023)Nanda, Chan, Lieberum, Smith, and
+  Steinhardt]{nanda2023progress}
+Neel Nanda, Lawrence Chan, Tom Lieberum, Jess Smith, and Jacob Steinhardt.
+\newblock Progress measures for grokking via mechanistic interpretability.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2023.
+
+\bibitem[Saxe et~al.(2014)Saxe, McClelland, and Ganguli]{saxe2014exact}
+Andrew~M Saxe, James~L McClelland, and Surya Ganguli.
+\newblock Exact solutions to the nonlinear dynamics of learning in deep linear
+  neural networks.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2014.
+
+\bibitem[Sinha et~al.(2017)Sinha, Sarkar, Mukherjee, and
+  Krishnamurthy]{sinha2017introspection}
+Abhishek Sinha, Mausoom Sarkar, Avisek Mukherjee, and Balaji Krishnamurthy.
+\newblock Introspection: Accelerating neural network training by learning
+  weight evolution.
+\newblock In \emph{ICLR Workshop}, 2017.
+
+\bibitem[Smith(2017)]{smith2017cyclical}
+Leslie~N Smith.
+\newblock Cyclical learning rates for training neural networks.
+\newblock In \emph{IEEE Winter Conference on Applications of Computer Vision
+  (WACV)}, 2017.
+
+\bibitem[Stern et~al.(2018)Stern, Shazeer, and Uszkoreit]{stern2018blockwise}
+Mitchell Stern, Noam Shazeer, and Jakob Uszkoreit.
+\newblock Blockwise parallel decoding for deep autoregressive models.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2018.
+
+\bibitem[Tajanthan et~al.(2022)]{tajanthan2022chaos}
+Vinoj Tajanthan et~al.
+\newblock A chaos theory approach to understand neural network optimization.
+\newblock \emph{arXiv preprint}, 2022.
+
+\bibitem[Waterland et~al.(2013)Waterland, Angelino, Cubuk, Kaxiras, Adams,
+  Appavoo, and Seltzer]{waterland2013computational}
+Amos Waterland, Elaine Angelino, Ekin~D Cubuk, Efthimios Kaxiras, Ryan~P Adams,
+  Jonathan Appavoo, and Margo Seltzer.
+\newblock Computational caches.
+\newblock In \emph{Proceedings of the 6th International Systems and Storage
+  Conference (SYSTOR)}. ACM, 2013.
+\newblock \doi{10.1145/2485732.2485750}.
+
+\bibitem[Waterland et~al.(2014)Waterland, Angelino, Adams, Appavoo, and
+  Seltzer]{waterland2014asc}
+Amos Waterland, Elaine Angelino, Ryan~P Adams, Jonathan Appavoo, and Margo
+  Seltzer.
+\newblock {ASC}: Automatically scalable computation.
+\newblock In \emph{Proceedings of the 19th International Conference on
+  Architectural Support for Programming Languages and Operating Systems
+  (ASPLOS)}, pages 575--590. ACM, 2014.
+\newblock \doi{10.1145/2541940.2541985}.
+
+\bibitem[Zhang et~al.(2019)Zhang, Lucas, Hinton, and Ba]{zhang2019lookahead}
+Michael~R Zhang, James Lucas, Geoffrey Hinton, and Jimmy Ba.
+\newblock Lookahead optimizer: k steps forward, 1 step back.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2019.
+
+\end{thebibliography}
