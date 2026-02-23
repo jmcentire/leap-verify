@@ -2,7 +2,7 @@
 
 **Regime-Adaptive Speculative Weight Prediction for Accelerating Neural Network Training**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18739387.svg)](https://doi.org/10.5281/zenodo.18739387)
 
 Leap+Verify applies speculative execution — predicting future model weights and validating predictions before acceptance — to accelerate neural network training. Inspired by [ASC (Automatically Scalable Computation)](https://dl.acm.org/doi/10.1145/2541940.2541985) and speculative decoding, the framework:
 
@@ -82,6 +82,7 @@ python phase3_scale_validation.py --seed 42 --max-steps 2000 --device cuda --use
   author = {McEntire, Jeremy},
   title = {Leap+Verify: Regime-Adaptive Speculative Weight Prediction for Accelerating Neural Network Training},
   year = {2026},
+  doi = {10.5281/zenodo.18739387},
   url = {https://github.com/jmcentire/leap-verify}
 }
 ```

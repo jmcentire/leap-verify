@@ -9,6 +9,7 @@ authors:
 version: "1.0.0"
 date-released: "2026-02-23"
 license: MIT
+doi: "10.5281/zenodo.18739387"
 repository-code: "https://github.com/jmcentire/leap-verify"
 keywords:
   - speculative execution

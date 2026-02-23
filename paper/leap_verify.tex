@@ -343,7 +343,7 @@ At 1.5B, proximity acceptance remains above 90\% through $K{=}25$; at 124M, the 
 
 The few Qwen stable-regime checkpoints ($N{=}5$ total across seeds) show 100\% proximity acceptance through $K{=}25$, consistent with GPT-2's stable-regime pattern.
 
-\subsection{The Momentum Catastrophe at Scale}
+\subsection{The Universal Momentum Catastrophe}
 \label{sec:results:momentum}
 
 Table~\ref{tab:momentum_catastrophe} quantifies the momentum predictor's failure mode at 1.5B parameters.
@@ -421,7 +421,7 @@ The limited cascade data available shows acceptance at short cascade depths ($D{
 \subsection{The Universal Momentum Catastrophe}
 
 Our most significant finding is that momentum-based weight prediction---extrapolating Adam's exponential moving average of gradients---fails catastrophically at \emph{every} model scale tested, not only at larger scales.
-At 124M parameters, momentum-predicted losses exceed actuals by $124\times$ at $K{=}5$, growing to $10{,}206\times$ at $K{=}100$.
+At 124M parameters, momentum-predicted losses exceed actuals by $122\times$ at $K{=}5$, growing to $10{,}764\times$ at $K{=}100$.
 At 1.5B parameters, the pattern is similar: $173\times$ at $K{=}5$ to $3{,}009\times$ at $K{=}100$.
 
 All three predictors operate in weight space, yet they differ in \emph{how} they construct the extrapolation direction.
@@ -542,7 +542,7 @@ This work used GPU compute from vast.ai.
 Experiments were conducted on NVIDIA A100 40GB GPUs.
 
 \paragraph{Code availability.}
-All code, experiment scripts, and paper source are available at \url{https://github.com/jmcentire/leap-verify}.
+All code, experiment scripts, and paper source are available at \url{https://github.com/jmcentire/leap-verify} (DOI: \href{https://doi.org/10.5281/zenodo.18739387}{10.5281/zenodo.18739387}).
 
 \bibliographystyle{plainnat}
 \bibliography{references}
