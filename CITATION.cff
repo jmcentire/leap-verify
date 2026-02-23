@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Leap+Verify: Regime-Adaptive Speculative Weight Prediction for Accelerating Neural Network Training"
+authors:
+  - family-names: McEntire
+    given-names: Jeremy
+    orcid: ""
+version: "1.0.0"
+date-released: "2026-02-23"
+license: MIT
+repository-code: "https://github.com/jmcentire/leap-verify"
+keywords:
+  - speculative execution
+  - neural network training
+  - weight prediction
+  - training dynamics
+  - regime detection
+abstract: >-
+  Leap+Verify applies speculative execution to neural network training,
+  predicting future model weights and validating predictions before acceptance.
+  The framework decomposes training into three dynamically detected regimes
+  (chaotic, transition, stable) and uses analytic weight predictors with a
+  verify-then-accept mechanism inspired by ASC and speculative decoding.
