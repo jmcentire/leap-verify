@@ -1,0 +1,38 @@
+name: leap-verify
+audience: public
+description: >
+  Regime-adaptive speculative weight prediction for accelerating
+  neural network training. ASC-inspired speculation applied to
+  gradient descent — predict future weight states, verify cheaply,
+  skip steps during stable regimes.
+
+domains:
+  - machine-learning
+  - training-optimization
+  - speculative-computation
+  - regime-detection
+  - research
+
+voice:
+  tone: direct, empirical, ASC-grounded
+  principles:
+    - Verification is cheaper than computation — loss check vs K gradient steps
+    - Regime detection guides when speculation succeeds
+    - Stable basins are predictable; phase transitions are not
+    - Every experiment is reproducible from a single script
+  anti-patterns:
+    - Speculating during chaotic regimes
+    - Skipping verification of predicted states
+    - Over-fitting the predictor to one training run
+
+standards:
+  code_review:
+    - PyTorch + HuggingFace for reproducibility
+    - Publication-quality plots
+    - Results saved with full configuration
+  documentation:
+    - Paper-ready LaTeX alongside experiment code
+
+connects_to:
+  - ai-research
+  - kindex
