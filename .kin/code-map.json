@@ -1,332 +1,67 @@
 {
-  "version": "1.0.0",
-  "project": {
-    "name": "leap-verify",
-    "description": "Code map exported from Kindex for leap-verify.",
-    "languages": [
-      "Python"
-    ],
-    "frameworks": [],
-    "analyzedAt": "2026-05-24T14:58:00",
-    "gitCommitHash": "eba9c2c7f3235f93e5305dcc2c939aa09a8b1e2e"
-  },
-  "nodes": [
-    {
-      "id": "code-mod-leap-verify-d0cffc5f675c",
-      "type": "file",
-      "name": "src/fingerprint/capture.py",
-      "filePath": "src/fingerprint/capture.py",
-      "summary": "Language: Python | Path: src/fingerprint/capture.py | ~206 lines ## Classes - ActivationCapture",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 4,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    },
-    {
-      "id": "code-sym-leap-verify-0fcd63b49119",
-      "type": "class",
-      "name": "ActivationCapture",
-      "filePath": "src/fingerprint/capture.py",
-      "summary": "class ActivationCapture (src/fingerprint/capture.py:14) ## Methods - capture(self, input_ids: torch.Tensor, attention_mask: Optional[torch.Tensor] = None) -> dict[str,torch.Tensor]",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 3,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-mod-leap-verify-9f48087844f2",
-      "type": "file",
-      "name": "phase2c_depth_sweep.py",
-      "filePath": "phase2c_depth_sweep.py",
-      "summary": "Language: Python | Path: phase2c_depth_sweep.py | ~790 lines ## Classes - SimpleTokenDataset(torch.utils.data.Dataset)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 11,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    },
-    {
-      "id": "code-sym-leap-verify-e69b009570db",
-      "type": "class",
-      "name": "SimpleTokenDataset",
-      "filePath": "phase2c_depth_sweep.py",
-      "summary": "class SimpleTokenDataset(torch.utils.data.Dataset) (phase2c_depth_sweep.py:64) ## Methods - __getitem__(self, idx)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 2,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-leap-verify-65af384c3b72",
-      "type": "class",
-      "name": "TrainingConfig",
-      "filePath": "phase2c_depth_sweep.py",
-      "summary": "class TrainingConfig (phase2c_depth_sweep.py:45)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-mod-leap-verify-bf5d8348d005",
-      "type": "file",
-      "name": "src/regime/detect.py",
-      "filePath": "src/regime/detect.py",
-      "summary": "Language: Python | Path: src/regime/detect.py | ~168 lines ## Classes - Regime(Enum)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 8,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    },
-    {
-      "id": "code-sym-leap-verify-44b570f85b12",
-      "type": "class",
-      "name": "Regime",
-      "filePath": "src/regime/detect.py",
-      "summary": "class Regime(Enum) (src/regime/detect.py:16)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-leap-verify-9faf535dfb3a",
-      "type": "class",
-      "name": "RegimeLabel",
-      "filePath": "src/regime/detect.py",
-      "summary": "class RegimeLabel (src/regime/detect.py:23)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-leap-verify-755af4a759bd",
-      "type": "class",
-      "name": "RegimeResult",
-      "filePath": "src/regime/detect.py",
-      "summary": "class RegimeResult (src/regime/detect.py:32) ## Methods - chaotic_fraction(self) -> float",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 4,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-mod-leap-verify-9e40b6faa56f",
-      "type": "file",
-      "name": "phase3_scale_validation.py",
-      "filePath": "phase3_scale_validation.py",
-      "summary": "Language: Python | Path: phase3_scale_validation.py | ~113 lines ## Functions - cleanup_old_checkpoints(ckpt_dir, keep_last_n=CHECKPOINT_ROLLING_WINDOW)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 4,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    },
-    {
-      "id": "code-mod-leap-verify-3fbaf43f667f",
-      "type": "file",
-      "name": "src/speculative/workers.py",
-      "filePath": "src/speculative/workers.py",
-      "summary": "Language: Python | Path: src/speculative/workers.py | ~295 lines ## Classes - PredictionCache",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 5,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    },
-    {
-      "id": "code-sym-leap-verify-dce8e1f530a2",
-      "type": "class",
-      "name": "PredictionCache",
-      "filePath": "src/speculative/workers.py",
-      "summary": "class PredictionCache (src/speculative/workers.py:269) ## Methods - insert(self, start_sd, end_sd, metadata)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 2,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-mod-leap-verify-009cdb1d1303",
-      "type": "file",
-      "name": "src/speculative/predictors.py",
-      "filePath": "src/speculative/predictors.py",
-      "summary": "Language: Python | Path: src/speculative/predictors.py | ~185 lines ## Functions - apply_linear_prediction(model, prev_sd, current_sd, K, interval)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 7,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    },
-    {
-      "id": "code-mod-leap-verify-89c225696099",
-      "type": "file",
-      "name": "src/speculative/landscape.py",
-      "filePath": "src/speculative/landscape.py",
-      "summary": "Language: Python | Path: src/speculative/landscape.py | ~17 lines ## Functions - compute_landscape_probe_v2(model, val_batch, predicted_sd, current_sd, fractions=(0.25, 0.5, 1.0, 2.0))",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    }
-  ],
   "edges": [
     {
-      "source": "code-sym-leap-verify-0fcd63b49119",
-      "target": "code-mod-leap-verify-d0cffc5f675c",
-      "type": "contains",
       "direction": "outbound",
-      "weight": 0.0108
-    },
-    {
-      "source": "code-sym-leap-verify-e69b009570db",
-      "target": "code-mod-leap-verify-9f48087844f2",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.0108
-    },
-    {
-      "source": "code-sym-leap-verify-65af384c3b72",
-      "target": "code-mod-leap-verify-9f48087844f2",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.0108
-    },
-    {
-      "source": "code-sym-leap-verify-44b570f85b12",
-      "target": "code-mod-leap-verify-bf5d8348d005",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.0108
-    },
-    {
-      "source": "code-sym-leap-verify-9faf535dfb3a",
-      "target": "code-mod-leap-verify-bf5d8348d005",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.0108
-    },
-    {
-      "source": "code-sym-leap-verify-755af4a759bd",
-      "target": "code-mod-leap-verify-bf5d8348d005",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.0108
-    },
-    {
       "source": "code-mod-leap-verify-9e40b6faa56f",
       "target": "code-mod-leap-verify-9f48087844f2",
       "type": "depends_on",
-      "direction": "outbound",
       "weight": 0.5
     },
     {
+      "direction": "outbound",
+      "source": "code-sym-leap-verify-0fcd63b49119",
+      "target": "code-mod-leap-verify-d0cffc5f675c",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-leap-verify-44b570f85b12",
+      "target": "code-mod-leap-verify-bf5d8348d005",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-leap-verify-65af384c3b72",
+      "target": "code-mod-leap-verify-9f48087844f2",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-leap-verify-755af4a759bd",
+      "target": "code-mod-leap-verify-bf5d8348d005",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-leap-verify-9faf535dfb3a",
+      "target": "code-mod-leap-verify-bf5d8348d005",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
       "source": "code-sym-leap-verify-dce8e1f530a2",
       "target": "code-mod-leap-verify-3fbaf43f667f",
       "type": "contains",
-      "direction": "outbound",
-      "weight": 0.0108
+      "weight": 0.6
     },
     {
-      "source": "code-sym-leap-verify-dce8e1f530a2",
-      "target": "code-mod-leap-verify-89c225696099",
-      "type": "related",
       "direction": "outbound",
-      "weight": 0.0108
-    },
-    {
-      "source": "code-mod-leap-verify-89c225696099",
-      "target": "code-sym-leap-verify-dce8e1f530a2",
-      "type": "related",
-      "direction": "outbound",
-      "weight": 0.0108
+      "source": "code-sym-leap-verify-e69b009570db",
+      "target": "code-mod-leap-verify-9f48087844f2",
+      "type": "contains",
+      "weight": 0.6
     }
   ],
   "layers": [
     {
+      "description": "Kindex-inferred core layer.",
       "id": "core",
       "name": "Core",
-      "description": "Kindex-inferred core layer.",
       "nodeIds": [
         "code-mod-leap-verify-9e40b6faa56f",
         "code-mod-leap-verify-9f48087844f2",
@@ -335,9 +70,9 @@
       ]
     },
     {
+      "description": "Kindex-inferred domain layer.",
       "id": "domain",
       "name": "Domain",
-      "description": "Kindex-inferred domain layer.",
       "nodeIds": [
         "code-sym-leap-verify-0fcd63b49119",
         "code-sym-leap-verify-44b570f85b12",
@@ -349,9 +84,9 @@
       ]
     },
     {
+      "description": "Kindex-inferred test layer.",
       "id": "test",
       "name": "Test",
-      "description": "Kindex-inferred test layer.",
       "nodeIds": [
         "code-mod-leap-verify-009cdb1d1303",
         "code-mod-leap-verify-3fbaf43f667f",
@@ -359,21 +94,269 @@
       ]
     }
   ],
+  "nodes": [
+    {
+      "complexity": 1,
+      "filePath": "phase2c_depth_sweep.py",
+      "id": "code-sym-leap-verify-65af384c3b72",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "TrainingConfig",
+      "summary": "class TrainingConfig (phase2c_depth_sweep.py:45)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 2,
+      "filePath": "phase2c_depth_sweep.py",
+      "id": "code-sym-leap-verify-e69b009570db",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "SimpleTokenDataset",
+      "summary": "class SimpleTokenDataset(torch.utils.data.Dataset) (phase2c_depth_sweep.py:64) ## Methods - __getitem__(self, idx)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 11,
+      "filePath": "phase2c_depth_sweep.py",
+      "id": "code-mod-leap-verify-9f48087844f2",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "phase2c_depth_sweep.py",
+      "summary": "Language: Python | Path: phase2c_depth_sweep.py | ~790 lines ## Classes - SimpleTokenDataset(torch.utils.data.Dataset)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 4,
+      "filePath": "phase3_scale_validation.py",
+      "id": "code-mod-leap-verify-9e40b6faa56f",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "phase3_scale_validation.py",
+      "summary": "Language: Python | Path: phase3_scale_validation.py | ~113 lines ## Functions - cleanup_old_checkpoints(ckpt_dir, keep_last_n=CHECKPOINT_ROLLING_WINDOW)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 3,
+      "filePath": "src/fingerprint/capture.py",
+      "id": "code-sym-leap-verify-0fcd63b49119",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "ActivationCapture",
+      "summary": "class ActivationCapture (src/fingerprint/capture.py:14) ## Methods - capture(self, input_ids: torch.Tensor, attention_mask: Optional[torch.Tensor] = None) -> dict[str,torch.Tensor]",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 4,
+      "filePath": "src/fingerprint/capture.py",
+      "id": "code-mod-leap-verify-d0cffc5f675c",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "src/fingerprint/capture.py",
+      "summary": "Language: Python | Path: src/fingerprint/capture.py | ~206 lines ## Classes - ActivationCapture",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/regime/detect.py",
+      "id": "code-sym-leap-verify-44b570f85b12",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "Regime",
+      "summary": "class Regime(Enum) (src/regime/detect.py:16)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 4,
+      "filePath": "src/regime/detect.py",
+      "id": "code-sym-leap-verify-755af4a759bd",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "RegimeResult",
+      "summary": "class RegimeResult (src/regime/detect.py:32) ## Methods - chaotic_fraction(self) -> float",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/regime/detect.py",
+      "id": "code-sym-leap-verify-9faf535dfb3a",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "RegimeLabel",
+      "summary": "class RegimeLabel (src/regime/detect.py:23)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 8,
+      "filePath": "src/regime/detect.py",
+      "id": "code-mod-leap-verify-bf5d8348d005",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "src/regime/detect.py",
+      "summary": "Language: Python | Path: src/regime/detect.py | ~168 lines ## Classes - Regime(Enum)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/speculative/landscape.py",
+      "id": "code-mod-leap-verify-89c225696099",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "src/speculative/landscape.py",
+      "summary": "Language: Python | Path: src/speculative/landscape.py | ~17 lines ## Functions - compute_landscape_probe_v2(model, val_batch, predicted_sd, current_sd, fractions=(0.25, 0.5, 1.0, 2.0))",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 7,
+      "filePath": "src/speculative/predictors.py",
+      "id": "code-mod-leap-verify-009cdb1d1303",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "src/speculative/predictors.py",
+      "summary": "Language: Python | Path: src/speculative/predictors.py | ~185 lines ## Functions - apply_linear_prediction(model, prev_sd, current_sd, K, interval)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 2,
+      "filePath": "src/speculative/workers.py",
+      "id": "code-sym-leap-verify-dce8e1f530a2",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "PredictionCache",
+      "summary": "class PredictionCache (src/speculative/workers.py:269) ## Methods - insert(self, start_sd, end_sd, metadata)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 5,
+      "filePath": "src/speculative/workers.py",
+      "id": "code-mod-leap-verify-3fbaf43f667f",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "src/speculative/workers.py",
+      "summary": "Language: Python | Path: src/speculative/workers.py | ~295 lines ## Classes - PredictionCache",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    }
+  ],
+  "project": {
+    "analyzedAt": "2026-05-24T17:35:10-05:00",
+    "description": "Code map exported from Kindex for leap-verify.",
+    "frameworks": [],
+    "gitCommitHash": "a12176e7baa7bf3173203613b79c50efd60bd7cb",
+    "languages": [
+      "Python"
+    ],
+    "name": "leap-verify"
+  },
   "tour": [
     {
-      "order": 1,
-      "title": "Core",
       "description": "Review 4 node(s) in the Core layer.",
       "nodeIds": [
         "code-mod-leap-verify-9e40b6faa56f",
         "code-mod-leap-verify-9f48087844f2",
         "code-mod-leap-verify-bf5d8348d005",
         "code-mod-leap-verify-d0cffc5f675c"
-      ]
+      ],
+      "order": 1,
+      "title": "Core"
     },
     {
-      "order": 2,
-      "title": "Domain",
       "description": "Review 7 node(s) in the Domain layer.",
       "nodeIds": [
         "code-sym-leap-verify-0fcd63b49119",
@@ -383,17 +366,20 @@
         "code-sym-leap-verify-9faf535dfb3a",
         "code-sym-leap-verify-dce8e1f530a2",
         "code-sym-leap-verify-e69b009570db"
-      ]
+      ],
+      "order": 2,
+      "title": "Domain"
     },
     {
-      "order": 3,
-      "title": "Test",
       "description": "Review 3 node(s) in the Test layer.",
       "nodeIds": [
         "code-mod-leap-verify-009cdb1d1303",
         "code-mod-leap-verify-3fbaf43f667f",
         "code-mod-leap-verify-89c225696099"
-      ]
+      ],
+      "order": 3,
+      "title": "Test"
     }
-  ]
+  ],
+  "version": "1.0.0"
 }
