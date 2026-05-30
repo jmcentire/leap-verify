@@ -36,3 +36,14 @@ standards:
 connects_to:
   - ai-research
   - kindex
+
+work_policy:
+  require_active_tag: false
+  linear:
+    enabled: false
+    require_issue: false
+  git:
+    block_commit_without_tag: false
+    block_commit_without_linear: false
+    block_push_without_tag: false
+    block_push_without_linear: false

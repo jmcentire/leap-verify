@@ -1,0 +1,166 @@
+{
+  "domains": [
+    "code",
+    "python"
+  ],
+  "node_count": 14,
+  "nodes": [
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-leap-verify-009cdb1d1303",
+      "title": "src/speculative/predictors.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-leap-verify-3fbaf43f667f",
+      "title": "src/speculative/workers.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-leap-verify-89c225696099",
+      "title": "src/speculative/landscape.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-leap-verify-9e40b6faa56f",
+      "title": "phase3_scale_validation.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-leap-verify-9f48087844f2",
+      "title": "phase2c_depth_sweep.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-leap-verify-bf5d8348d005",
+      "title": "src/regime/detect.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-leap-verify-d0cffc5f675c",
+      "title": "src/fingerprint/capture.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-leap-verify-0fcd63b49119",
+      "title": "ActivationCapture",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-leap-verify-44b570f85b12",
+      "title": "Regime",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-leap-verify-65af384c3b72",
+      "title": "TrainingConfig",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-leap-verify-755af4a759bd",
+      "title": "RegimeResult",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-leap-verify-9faf535dfb3a",
+      "title": "RegimeLabel",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-leap-verify-dce8e1f530a2",
+      "title": "PredictionCache",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-leap-verify-e69b009570db",
+      "title": "SimpleTokenDataset",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:56:28",
+      "weight": 0.5
+    }
+  ],
+  "repo": "leap-verify",
+  "source_updated_at": "2026-05-30T14:56:28",
+  "version": 1
+}
